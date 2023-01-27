@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(32, 31, 31);
+    color: rgb(255, 255, 255);
+    margin-top: 69.19px;
+    overflow-x: hidden; /*No enteindo que hace esta propiedad con respecto al Trending movie scroll*/
+}
+
+/* Navbar */
+.navbar .navbar-brand{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 700;
+    font-size: 1.8rem;
+}
+
+.navbar .navbar-brand:hover{
+    color: rgb(76, 149, 149) !important;
+}
+
+.navbar-nav .nav-item{
+    margin-right: 25px !important;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-link{
+    color: rgb(255, 255, 255) !important;
+}
